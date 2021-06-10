@@ -1,0 +1,137 @@
+/* --- Family Font --- */
+@font-face{
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: RobotoLight;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+/* --- Eind Family Font --- */
+/* --------------------------------- */
+*{
+    box-sizing: border-box;
+}
+main{
+    overflow: hidden;
+    background-color: red;
+}
+.container-static{
+    width: 960px;
+    max-width: 90%;
+    margin: auto;
+    background: pink;
+    overflow: hidden;
+}
+.container-fuild{
+    width: 100%;
+    background: pink;
+    overflow: hidden;
+}
+/* --------------------------------- */
+html{
+    scroll-behavior: smooth;
+}
+main, nav, aside, article, section, footer, figure, aside{
+    overflow: hidden;
+}
+nav{
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+body{
+    line-height: 1.4;
+    font-family: sans-serif;
+    font-family: RobotoRegular;
+}
+aside{
+    background-color: aquamarine;
+}
+footer{
+    background-color: greenyellow;
+    padding: 1%;
+}
+main{
+    padding: 4%;
+}
+article{
+    background-color: yellow;
+}
+section{
+    background-color: deepskyblue;
+}
+figure{
+    background-color: brown;
+}
+/* --- Text --- */
+h1, h2, h3, h4{
+    font-family: RobotoBlack;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 1.4em;
+}
+h5{
+    font-size: 1.2em;
+}
+h6{
+    font-size: 1em;
+}
+strong{
+    font-weight: 700;
+}
+em{
+    font-style: italic;
+}
+ins{
+    text-decoration-line: underline;
+}
+ul{
+    list-style: circle;
+}
+p{ 
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: RobotoRegular;
+}
+/* --- Eind Text --- */
+img{
+    width: 100%;
+    display: block;
+}
+/* --- Zelf gemaakte classen --- */
+.clear {
+    clear: both;
+}
+/* --- EIND Zelf gemaakte classen --- */

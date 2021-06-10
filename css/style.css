@@ -1,0 +1,193 @@
+/* ---------------------------------------------------- START Header */
+header{
+    display: flex;
+    background-color: #ee4e48;
+    max-height: 100vh;
+}
+header figure, section{
+    flex: 1;
+}
+header figure{
+    padding: 4%;
+    background-color: #1d1d1d;
+    text-align: center;
+}
+header section{
+    padding-left: 2%;
+    padding-right: 4%;
+    margin: auto;
+    background-color: transparent;
+    color: whitesmoke;
+}
+header section h1 span{
+    font-size: 1.6em;
+
+    /* OPTIONAL - Having a black background with padding
+    background-color: #1d1d1d;
+    padding: 0% 2%; 
+    */
+}
+header section h1{
+    text-transform: uppercase;
+    font-size: 3.6em;
+    margin-bottom: 2%;
+}
+header section p{
+    width: 60%;
+}
+/* ---------------------------------------------------- END Header */
+/* ---------------------------------------------------- START NAV */
+nav{
+    display: flex;
+    padding-left: 4%;
+    background-color: #2b2b2b;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+nav a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0%;
+    color: whitesmoke;
+}
+nav ul{
+    display: flex;
+    padding-right: 4%;
+    margin: auto;
+    
+}
+nav ul a{
+    padding: 20px 20px;
+}
+nav a:hover{
+    transition: ease 0.6s;
+    color: #ee4e48;
+}
+/* ---------------------------------------------------- END NAV */
+/* ---------------------------------------------------- START MAIN */
+main{
+    padding: 0%;
+    background-color: whitesmoke;
+}
+main h1{
+    text-align: center;
+    margin-bottom: 2%;
+    color: #1d1d1d;
+}
+main article, figure{
+    background-color: transparent;
+}
+aside, footer, section{
+    background-color: transparent;
+}    
+::selection{
+    color: whitesmoke;
+    background: #ee4e48;
+}
+/* ---------------------------------------------------- EIND MAIN */
+/* ---------------------------------------------------- START VAARDIGHEDEN */
+main article#vaardigheden{
+    padding: 4%;
+}
+main article#vaardigheden figure{
+    display: flex;
+    padding: 2% 0%;
+    text-align: center;
+    background-color: transparent;
+}
+main article#vaardigheden figure div{
+    width: 33.33333%;
+}main article#vaardigheden figure div figcaption{
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+main article#vaardigheden figure div figcaption i{
+    margin: auto;
+    color: #ee4e48;
+}
+main article#vaardigheden figure div img{
+    width: 12%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+/* ---------------------------------------------------- END VAARDIGHEDEN */
+/* ---------------------------------------------------- START ONTWERPEN */
+article#ontwerpen{
+    background-color: #EEE;
+    padding: 4%;
+}
+article#ontwerpen h1{
+    color: #1d1d1d;
+}
+
+article#ontwerpen figure {
+    display: flex;
+}
+
+article#ontwerpen img:nth-child(2) {
+    margin: 0 2rem;
+}
+/* ---------------------------------------------------- END ONTWERPEN */
+/* ---------------------------------------------------- START Project */
+article#project{
+    background-color: #fff;
+    padding: 4%;
+}
+article#project h1{
+    color: #1d1d1d;
+}
+
+article#project figure {
+    display: flex;
+}
+
+article#project img:nth-child(2) {
+    margin: 0 2rem;
+}
+/* ---------------------------------------------------- END ONTWERPEN */
+/* ---------------------------------------------------- START CONTACT */
+section#contact{
+    padding: 0%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+/* ---------------------------------------------------- END CONTACT */
+/* ---------------------------------------------------- START FOOTER */
+footer{
+    padding: 1% 4%;
+    display: flex;
+    background-color: #1d1d1d;
+    color: whitesmoke;
+}
+footer section {
+    display: flex;
+}
+footer section:nth-of-type(3){
+    flex-direction: column;
+} 
+footer img{
+    height: 16px;
+    width: 16px;
+    margin-right: 1%;
+    margin-top: 2.2px;
+}
+footer p{
+    margin: 0%;
+}
+footer section:nth-of-type(3) div i{
+    font-size: 2em;
+    color: whitesmoke;
+}
+footer p a{
+    color: #f5f5f5;
+}
+footer p a:hover{
+    text-decoration-line: underline;
+}
+footer section div i:hover{
+    transition: ease 0.4s;
+    color: #ee4e48;
+}
+/* ---------------------------------------------------- END FOOTER */
