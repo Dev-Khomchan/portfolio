@@ -197,4 +197,11 @@ footer section div i:hover{
 .contact img {
     display: initial;
 }
+.social_media a {
+    color: whitesmoke;
+}
+
+.social_media a:hover {
+    color: #ee4e48;
+}
 /* ---------------------------------------------------- END FOOTER */
