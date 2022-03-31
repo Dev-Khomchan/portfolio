@@ -195,6 +195,7 @@ footer section div i:hover{
 }
 footer h4 {
     font-family: RobotoRegular;
+    font-weight: bolder;
 }
 .contact img {
     display: initial;
