@@ -193,6 +193,9 @@ footer section div i:hover{
     transition: ease 0.4s;
     color: #ee4e48;
 }
+footer h4 {
+    font-family: RobotoRegular;
+}
 .contact img {
     display: initial;
 }
