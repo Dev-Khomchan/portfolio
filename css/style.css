@@ -181,6 +181,7 @@ footer p{
 }
 footer section:nth-of-type(3) div i{
     font-size: 2em;
+    margin-right: 0.5rem;
     color: whitesmoke;
 }
 footer p a{
