@@ -103,7 +103,7 @@ main article#vaardigheden figure div{
     justify-content: center;
 }
 main article#vaardigheden figure div figcaption i{
-    margin: auto;
+    margin: 0.2rem;
     color: #ee4e48;
 }
 main article#vaardigheden figure div img{
