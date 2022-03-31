@@ -131,7 +131,7 @@ article#ontwerpen img:nth-child(2) {
 }
 /* ---------------------------------------------------- END ONTWERPEN */
 article#projecten img, article#ontwerpen img {
-    widh: 33%;
+    width: 33%;
 }
 /* ---------------------------------------------------- START Projecten */
 article#projecten {
