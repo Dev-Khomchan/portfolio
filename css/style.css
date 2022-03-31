@@ -152,7 +152,7 @@ article#projecten img:nth-child(2) {
 /* ---------------------------------------------------- END Projecten */
 /* ---------------------------------------------------- START CONTACT */
 section#contact{
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     flex-direction: column;
 }
 /* ---------------------------------------------------- END CONTACT */
