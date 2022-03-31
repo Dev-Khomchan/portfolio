@@ -98,9 +98,9 @@ main article#vaardigheden figure{
 }
 main article#vaardigheden figure div{
     width: 33.33333%;
-}main article#vaardigheden figure div figcaption{
-    display: flex;
-    justify-content: center;
+}
+main article#vaardigheden figure div figcaption{
+    display: block;
 }
 main article#vaardigheden figure div figcaption i{
     margin: 0.2rem;
