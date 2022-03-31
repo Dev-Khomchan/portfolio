@@ -196,6 +196,7 @@ footer section div i:hover{
 footer h4 {
     font-family: RobotoRegular;
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 .contact img {
     display: initial;
@@ -204,6 +205,7 @@ footer h4 {
     color: whitesmoke;
     display: block;
     font-size: 16px;
+    margin-bottom: 1rem;
 }
 .contact a:hover {
     color: #ee4e48;
