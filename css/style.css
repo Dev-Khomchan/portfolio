@@ -160,7 +160,7 @@ section#contact{
 /* ---------------------------------------------------- END CONTACT */
 /* ---------------------------------------------------- START FOOTER */
 footer{
-    padding: 0.5rem 4rem;
+    padding: 1rem 4rem;
     display: flex;
     background-color: #1d1d1d;
     color: whitesmoke;
