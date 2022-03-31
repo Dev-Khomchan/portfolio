@@ -130,23 +130,27 @@ article#ontwerpen img:nth-child(2) {
     margin: 0 2rem;
 }
 /* ---------------------------------------------------- END ONTWERPEN */
-/* ---------------------------------------------------- START Project */
-article#project{
+article#projecten img, article#ontwerpen img {
+    widh: 33%;
+}
+/* ---------------------------------------------------- START Projecten */
+article#projecten{
     background-color: #fff;
     padding: 4%;
 }
-article#project h1{
+article#projecten h1{
     color: #1d1d1d;
 }
 
-article#project figure {
+article#projecten figure {
     display: flex;
 }
 
-article#project img:nth-child(2) {
+article#projecten img:nth-child(2) {
     margin: 0 2rem;
 }
-/* ---------------------------------------------------- END ONTWERPEN */
+
+/* ---------------------------------------------------- END Projecten */
 /* ---------------------------------------------------- START CONTACT */
 section#contact{
     padding: 0%;
