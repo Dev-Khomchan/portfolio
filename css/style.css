@@ -115,7 +115,7 @@ main article#vaardigheden figure div img{
 /* ---------------------------------------------------- START ONTWERPEN */
 article#ontwerpen{
     background-color: #EEE;
-    padding: 4rem;
+    padding: 4rem 10rem;
 }
 article#ontwerpen h1{
     color: #1d1d1d;
@@ -135,7 +135,7 @@ article#projecten img, article#ontwerpen img {
 /* ---------------------------------------------------- START Projecten */
 article#projecten {
     background-color: #fff;
-    padding: 4rem;
+    padding: 4rem 10rem;
 }
 article#projecten h1{
     color: #1d1d1d;
